@@ -1,6 +1,6 @@
 <div align="center">
 	<img src="https://i.imgur.com/eD4tNl7.png" width="128" height="128" />
-	<h1><strong>🤨 Mac falling asleep?</h1>
+	<h1><strong>Mac falling asleep? 😴</h1>
 	
 </div>
 <br>
@@ -11,21 +11,31 @@
   </p>
  
 
-## About MacSpresso
+## MacSpresso
 MacSpresso is a simple menu bar app that keeps your Mac awake, allowing long-running processes to finish up without interruption.
 
-MacSpresso lives and dies in your menu bar. When the mug is visible, caffeination is active. Otherwise the app is closed to prevent menu bar clutter. 
+MacSpresso lives and dies in your menu bar. When the mug is visible, caffeination is active. Otherwise the app is closed, preventing menu bar clutter. 
 
 
 ## Installation
 ------------
-
-- You can download the latest `.dmg` file from [Releases](https://github.com/ksp237/MacSpresso/releases). and install it from there
-  
-- You can also clone the entire repository and build it yourself:
-
-  ```sh
-  git clone https://github.com/ksp237/MacSpresso.git
+Install MacSpresso via Homebrew:
+  ```bash
+  brew install ksp237/tap/macspresso --cask
   ```
-  
+  Or tap my respository first, then install:
+  ```bash
+  brew tap ksp237/tap
+  brew install --cask macspresso
+  ```
+
+Or download the latest `.dmg` file from [Releases](https://github.com/ksp237/MacSpresso/releases)
+
+You can also clone the entire repository and build it yourself:
+
+```sh
+git clone https://github.com/ksp237/MacSpresso.git
+```
+
+
 
