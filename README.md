@@ -16,9 +16,10 @@ MacSpresso is a simple menu bar app that keeps your Mac awake, allowing long-run
 
 MacSpresso lives and dies in your menu bar. When the mug is visible, caffeination is active. Otherwise the app is closed, preventing menu bar clutter. 
 
-
 ## Installation
 ------------
+**Note:** In macOS Sequoia, Option-click no longer works to open unsigned apps. If Gatekeeper wont let you open the app for the first time, go to **System Settings > Privacy & Security** and click **“Open Anyway”** to allow it to run.
+
 Install MacSpresso via Homebrew:
   ```bash
   brew install 6b70/tap/macspresso --cask
