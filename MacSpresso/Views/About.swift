@@ -2,7 +2,7 @@
 //  About.swift
 //  MacSpresso
 //
-//  Created by ksp237 on 9/8/24.
+//  Created by 6b70 on 9/8/24.
 //
 
 import Cocoa
@@ -15,10 +15,10 @@ struct AboutView: View {
         let version = nsObject as! String
         VStack(alignment: .center, spacing: 10) {
             VStack(alignment: .center) {
-                Image("AppIcon")
+                Image("AppIconImage")
                     .resizable()
                     .scaledToFit()
-                    .frame(width: 70, height: 70)
+                    .frame(width: 80, height: 80)
 
                 Text("MacSpresso \(version)")
                     .bold()
@@ -26,11 +26,11 @@ struct AboutView: View {
                     .padding(.vertical, 5.0)
                     .accessibility(hint: Text("Rek \(version)"))
 
-                Text("Created by ksp237")
+                Text("Created by 6b70")
                     .underline()
                     .onTapGesture {
-                        let email = "https://github.com/ksp237"
-                        if let url = URL(string: email) {
+                        let link = "https://github.com/6b70"
+                        if let url = URL(string: link) {
                             NSWorkspace.shared.open(url)
                         }
                     }
@@ -40,10 +40,10 @@ struct AboutView: View {
             .frame(maxWidth: /*@START_MENU_TOKEN@*/.infinity/*@END_MENU_TOKEN@*/)
 
             HStack {
-                Text("Bug or Feature?")
+                Text("Report Bug")
 
                 Button(action: {
-                    let repo = "https://github.com/ksp237/MacSpresso/issues"
+                    let repo = "https://github.com/6b70/MacSpresso/issues"
                     if let url = URL(string: repo) {
                         NSWorkspace.shared.open(url)
                     }

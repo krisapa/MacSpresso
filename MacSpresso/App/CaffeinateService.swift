@@ -2,7 +2,7 @@
 //  CaffeinateService.swift.swift
 //  MacSpresso
 //
-//  Created by ksp237 on 9/8/24.
+//  Created by 6b70 on 9/8/24.
 //
 
 import Foundation
