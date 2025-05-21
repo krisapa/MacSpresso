@@ -22,11 +22,11 @@ MacSpresso lives and dies in your menu bar. When the mug is visible, caffeinatio
 
 Install MacSpresso via Homebrew:
   ```bash
-  brew install 6b70/tap/macspresso --cask
+  brew install krisapa/tap/macspresso --cask
   ```
   Or tap my respository first, then install:
   ```bash
-  brew tap 6b70/tap
+  brew tap krisapa/tap
   brew install --cask macspresso
   ```
 
